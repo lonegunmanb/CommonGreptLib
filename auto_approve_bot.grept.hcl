@@ -1,5 +1,5 @@
 data "http" auto_approve_n_merge_yaml {
-  url = "https://raw.githubusercontent.com/lonegunmanb/CommonGreptLib/main/static/LICENSE"
+  url = "https://github.com/lonegunmanb/CommonGreptLib/blob/main/static/auto-approve-n-merge.yaml"
 }
 
 rule "file_hash" auto_approve_n_merge_yaml {
